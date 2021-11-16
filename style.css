@@ -1,0 +1,13 @@
+.correct {
+    background-color: white;
+}
+
+.wrong {
+    background-color: palevioletred;
+}
+.verticalresize {
+    resize: vertical;
+    overflow: auto;
+    border: 2px solid;
+    padding: 20px; 
+}

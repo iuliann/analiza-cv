@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8"> 
+        <title>Analiza CV</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <script type = "text/javascript" src = "script.js" ></script>
+    </head>
+    <body>
+        <div class = "input">
+            <label for="who">Nume </label><input type="text" id = "who" />
+            <!--<label for="born">Data nasterii </label>
+            <input type="date" id = "born" /> -->
+            <br><br>
+            <fieldset>
+                <legend>Activitate</legend>
+                <label>De la </label><input type="month" id = "from" placeholder="yyyy-mm" />
+                <label>Pana la   </label><input type="month" id = "to" placeholder="yyyy-mm" />
+                <br><br>
+                <label for="what">Activitate </label><input type="text" id = "what" size = 100/>
+                <br>
+                <input type="radio" name="activity_type" value="learn" checked>Formare<br>
+                <input type="radio" name="activity_type" value="private">Privat<br>
+                <input type="radio" name="activity_type" value="public">Public<br>
+                <br>
+                <input type = "button" value = "Adauga la lista"  onclick = "addEntry();" />
+                <input type = "button" value = "Modifica elementul selectat"  onclick = "changeEntry();" />
+            </fieldset>
+        </div>
+        <div>
+            <h2>Resume</h2>
+            <label for="file-input">Incarca fisier:</label>
+            <input type="file" id="file-input" /></input>
+            <br><br>
+            <button onclick="save();">Salveaza (in directorul Downloads) ...</button>
+            <br>
+        </div>
+        <div id="timeline" class="verticalresize"></div>
+        <!-- <div>
+            <h2>Probleme gasite</h2>
+            <ul id = "report"></ul>
+        </div> -->
+    </body>
+</html>
