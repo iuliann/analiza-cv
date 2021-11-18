@@ -254,8 +254,14 @@ function drawChart() {
     let data = [];
     let colors = [];
     for(let entry of entries) {
+        // when an entry with same activity exists already, we don't have to add to the colors array
+        // because the entries with same activity are going to be grouped into a single row 
+        let sameActivityWasAddedBefore = data.some(e => e[0] == entry.what);
+        
         data.push([entry.what, entry.from, entry.to ]);
-        colors.push(colorLegend.get(entry.type));
+        if( !sameActivityWasAddedBefore) {
+            colors.push(colorLegend.get(entry.type));
+        }
     }
     dataTable.addRows(data);
 

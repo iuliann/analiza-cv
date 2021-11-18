@@ -2,14 +2,14 @@
 
 ## Noutati
 
-- Se pot edita datele: mai intai se selecteaza activitatea in timeline, ceea ce face ca datele sa fie populate in controalele de editare, apoi se fac modificari si la final se apasa pe "Modifica elementul selectat"
+- Cand se introduc mai multe activitati cu acelasi text dar perioade diferite, codurile de culoare functioneaza corect
 
 ## Testat cu
 
 - sistem de operare Linux Mint Cinnamon 3.8.9
-- browser Firefox for Linux Mint 89.0.2
-- browser Google Chrome 95.0.4638.69  
-In principiu ar trebui sa mearga cu orice browser, si in Windows
+- Firefox for Linux Mint 89.0.2
+- Google Chrome 95.0.4638.69
+- Microsoft Edge 95.0.1020.44  
 
 ## Instalare
 
@@ -30,6 +30,5 @@ Ca alternativa la procedura de mai sus, se poate reincarca ultima versiune salva
 
 ## Known issues
 
-- la inceput, cand nu exista inca date, in zona de jos apare o paranteza inchisa. ignorati.
-- daca adaugati doua intrari care au acelasi text la "Activitate",  codurile de culoare
- nu se mai aplica corect. Oricum, nu este ok sa fie doua Activitati cu acelasi nume
+- la inceput, cand nu exista inca date, in zona de jos apare o paranteza inchisa. ignorati
+  
