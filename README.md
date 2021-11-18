@@ -2,6 +2,7 @@
 
 ## Noutati
 
+- Am introdus inca un tip de activitate: "Politica" (pentru functii de partid)
 - Cand se introduc mai multe activitati cu acelasi text dar perioade diferite, codurile de culoare functioneaza corect
 
 ## Testat cu
@@ -19,7 +20,7 @@ Din File Explorer, faceti drag&drop la fisierul index.html catre fereastra de br
 
 ## Utilizare
 
-Datele se introduc in zona "Activitate", apoi se introduc in Timeline cu butonul "Adauga la lista".  
+Datele se introduc in zona "Activitate", apoi se introduc in Timeline cu butonul "Adauga la lista".
 
 Datele introduse in tool se vor salva intr-un fisier text cu extensia .json, in directorul "Downloads". Numele fisierul va contine numele candidatului, urmat de un numar care creste la fiecare salvare. Asadar, fisierele existente nu se suprascriu, ceea ce e util ca sa reveniti la o versiune anterioara
 daca faceti greseli. Prin urmare, nu uitati sa salvati din cand in cand. Cu timpul se va umple acolo de fisiere, va trebui facut curatenie manual daca vreti.  

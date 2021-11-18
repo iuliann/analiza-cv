@@ -283,5 +283,5 @@ function drawChart() {
 }
 
 let colorLegend = new Map().set('learn','#00BFFF').set('private','#66CDAA')
-                    .set('public','#FFA500')
+                    .set('public','#FFA500').set('politics','#FF6347')
 
